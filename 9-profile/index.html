@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Browns Casita Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <style>
+        @media only screen and (max-width: 700px) {
+            .box{
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <!--logo-->
+        <div class="row">
+            <div class="col header">
+                <a href="../1-home/"><img src="logo1.2.png" alt=""></a>
+            </div>
+        </div>
+
+        <!--Login box-->
+        <div class="row">
+            <div class="col">
+                <div class="box">
+                    <div class="head">
+                        <img src="image1.jpg" alt="">
+                        <br>
+                        <br>
+                        <h4>Anna Smith</h4>
+                        <p>anna123@gmail.com</p>
+                        <button>Update Profile</button>
+                    </div>
+
+                    <div class="content">
+                        <button onclick="btn1()">UPCOMING BOOKING</button>
+                        <form action="" class="up-booking" id="up-booking">
+                            <p>Date: check-in - check-out</p>
+                            <p>Date: check-in - check-out</p>
+                            <p>Date: check-in - check-out</p>
+                        </form>
+                        <br>
+                        <button onclick="btn2()">PREVIOUS BOOKING</button>
+                        <form action="" class="up-booking" id="pre-booking">
+                            <p>Date: check-in - check-out</p>
+                            <p>Date: check-in - check-out</p>
+                            <p>Date: check-in - check-out</p>
+                        </form>
+                        <br>
+                        <button onclick="btn3()">SEND US AN EMAIL</button>
+                        <br>
+                        <div class="box1_1" id="email-send">
+                            <form action="">
+                                <div class="email">
+                                    <input type="email" placeholder="Type your email here..." name="email" required>
+                                </div>
+                                <div class="email-content">
+                                    <input type="text" placeholder="Type your message here..." name="comment" required>
+                                </div>
+                                <div class="submit">
+                                    <input type="submit">
+                                </div>
+                            </form>
+                        </div>
+                        <button onclick="location.href = '../3-calendar/index.html';">START BOOKING</button>
+                        <br>
+                        <button onclick="location.href = '../1-home/index.html';">HOME</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script>
+        function btn1(){
+            document.getElementById("up-booking").classList.toggle("show");
+        }
+        function btn2(){
+            document.getElementById("pre-booking").classList.toggle("show");
+        }
+        function btn3(){
+            document.getElementById("email-send").classList.toggle("show1");
+        }
+    </script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/12e77b0106.js" crossorigin="anonymous"></script>    
+</body>
+</html>

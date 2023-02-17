@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Browns Casita Availability Check</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @media only screen and (max-width: 300px){
+            .current-date{
+                font-size: 20px;
+            }
+            .icons{
+                font-size: 20px;
+            }
+            .weeks{
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <a name="toppart"></a>
+
+        <!--Logo-->
+        <div class="row">
+            <div class="logo1">
+                <img src="logo1.2.png" alt="The Browns Casita">
+            </div>
+        </div>
+
+        <!--Navigation-->
+        <div class="row nav_row">
+             <div class="col nav">
+                <ul>
+                    <li><a href="../1-home/index.html">HOME</a></li>
+                    <li><a href="../2-facilities/index.html">FACILITIES</a></li>
+                    <li><a href="#pricing">PRICING</a></li>
+                </ul>
+             </div>
+        </div>
+
+        <!--Opening-->
+        <a name="avail"></a>
+        <div class="row opening_row">
+            <h3>Choose the dates available below:</h3>
+            <hr>
+        </div>
+
+        <!--Calendar-->
+        <div class="row calendar_row">
+            <div class="col-md-6 calendar_col">
+                <div class="container">
+                    <header>
+                        <p class="current-date"></p>
+                        <div class="icons">
+                            <div id="prev"><i class="fa-solid fa-angle-left"></i></div>
+                            <div id="next"><i class="fa-solid fa-angle-right"></i></div>
+                        </div>
+                    </header>
+                    <div class="calendar">
+                        <ul class="weeks">
+                            <li>Sun</li>
+                            <li>Mon</li>
+                            <li>Tue</li>
+                            <li>Wed</li>
+                            <li>Thu</li>
+                            <li>Fri</li>
+                            <li>Sat</li>
+                        </ul>
+                        <ul class="days">
+                            <li</li> 
+                        </ul>
+                    </div>
+                    <div class="calendar_days" defer></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 calendar_col">
+                <div class="booking">
+                    <h4>BOOK</h4>
+                    <hr>
+                    <br>
+                    <form action="" class="dateSelection">
+                        <p>Check-in Date:</p>
+                        <input type="date" required>
+                        <p>Check-out Date:</p>
+                        <input type="date" required>
+                        <br>
+                        <br>
+                        <button onclick="location.href = '../4-Checkout/index.html';">CHECKOUT</button>
+                    </form>
+                    <div class="note">
+                        <p>Note! Input the check-in and Check-out date by referring to the available dates on the calendar.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <a name="pricing"></a>
+        </div>
+
+        <!--Pricing-->
+        <section>
+            <div class="row row3">
+                <div class="col-md-12 col3">
+                    <h1>Pricing</h1>
+                    <hr>
+                </div>
+            </div>
+
+            <!--Lower col-->
+            <div class="row pricing_row">
+                <div class="col-md-4 col7">
+                    <div class="box1">
+                        <h3>One to <br> Seven Days</h3>
+                        <hr>
+                        <br>
+                        <H5>INCLUSION:</H5>
+                        <br>
+                        <ul>
+                            <li>Free use all available facilities.</li>
+                            <li>Free toiletries including soap, shampoo, tooth paste, and tooth brush.</li>
+                            <li>Free use of drinking water.</li>
+                            <li>Complementary food.</li>
+                            <li>Maximum of 10 pax.</li>
+                        </ul>
+                        <br>
+                        <h4>₱2800<font size="2">/PER DAY</font></h4>
+                        <br>
+                        <button onclick="location.href = '#avail';">Click to Check Availability!</button>
+                        <br>
+                        <br>
+                        <p>PLEASE NOTE: Prices are subject to change. To secure a non-changeable amount, proceed to book the available date.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col7">
+                    <div class="box1">
+                        <h3>More than <br> Seven Days</h3>
+                        <hr>
+                        <br>
+                        <H5>INCLUSION:</H5>
+                        <br>
+                        <ul>
+                            <li>Free use all available facilities.</li>
+                            <li>Free toiletries including soap, shampoo, tooth paste, and tooth brush.</li>
+                            <li>Free use of drinking water.</li>
+                            <li>Complementary food.</li>
+                            <li>Maximum of 10 pax.</li>
+                        </ul>
+                        <br>
+                        <h4>₱2500<font size="2">/PER DAY</font></h4>
+                        <br>
+                        <button onclick="location.href = '#avail';">Click to Check Availability!</button>
+                        <br>
+                        <br>
+                        <p>PLEASE NOTE: Prices are subject to change. To secure a non-changeable amount, proceed to book the available date.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col7">
+                    <div class="box1">
+                        <h3>Additional <br> Payment</h3>
+                        <hr>
+                        <br>
+                        <br>
+                        <h6>FOR EXCESS PAX:</h6>
+                        <h4>₱200<font size="2">/PER DAY</font></h4>
+                        <br>
+                        <h6>BREAKFAST:</h6>
+                        <h4>₱100<font size="2">/PER PAX</font></h4>
+                        <br>
+                        <h6>POOLSIDE DATE SUPRISE SETUP:</h6>
+                        <h4>₱1000-₱2000<font size="2">/PER REQUEST</font></h4>
+                        <br>
+                        <br>
+                        <button class="paybutton" onclick="location.href = '#contact';">Contact us for information!</button>
+                        <br>
+                        <br>
+                        <p>PLEASE NOTE: Prices are subject to change. To secure a non-changeable amount, proceed to book the available date.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <a name="contact"></a>
+        <section>
+            <!--Contacts-->
+            <div class="row">
+                <div class="col-lg-4 col10">
+                    <div class="box1_1">
+                        <h4>Send us an Email</h4>
+                        <hr>
+                        <form action="" method="post" enctype="text/plain">
+                            <input type="email" placeholder="Type your email here..." name="email" required>
+                            <div class="box1_message">
+                            <input type="text" placeholder="Type your message here..." name="comment" required>
+                            </div>
+                            <button type="submit">SEND</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col10">
+                    <div class="box2">
+                        <h4>Other Information</h4>
+                        <hr>
+                        <h5>Address:</h5>
+                        <a href="https://goo.gl/maps/6U1PGq2vTzt3jH2W7" target="_blank"><i class="fa-solid fa-location-dot">
+                        </i>Brgy. Cebulano, Carmen, Davao del Norte</a>
+                        <br>
+                        <br>
+                        <h5>Contact Info:</h5>
+                        <p>09369361714</p>
+                        <br>
+                        <h5>Email Add:</h5>
+                        <p>thebrownscasita@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col10">
+                    <div class="box2">
+                        <h4>Get Social</h4>
+                        <hr>
+                        <ul>
+                            <li><a href="https://www.facebook.com/thebrownscasita" target="_blank"><i class="fa-brands fa-facebook"></i></a> Facebook</li>
+                            <li><a href="https://www.instagram.com/thebrownscasita/" target="_blank"><i class="fa-brands fa-instagram"></i></a> Instagram</li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></a>Twitter</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="row">
+                <div class="col-12 col8">
+                    <a href="#toppart"> >>>Click to Go Back to Top<<< </a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="cal.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/12e77b0106.js" crossorigin="anonymous"></script>    
+</body>
+</html>

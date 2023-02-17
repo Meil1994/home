@@ -1,0 +1,380 @@
+/*Logo*/
+.logo1 img{
+    margin-top: 20px;
+    width: 150px;
+    height: 88px;
+}
+.logo1{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+/*Navigation*/
+.nav_row{
+    background-color: black;
+    height: 60px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+}
+.nav li{
+    list-style: none;
+}
+.nav a{
+    font-size: 100%;;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+.nav a:hover{
+    color: rgb(20, 133, 133);
+}
+
+/*Opening*/
+.opening_row h3{
+    text-align: center;
+    color: rgb(53, 49, 49);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 100px;
+}
+.opening_row hr{
+    width: 40%;
+    color: rgb(53, 49, 49);
+    border: 2px solid;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/*Calendar*/
+.calendar_row{
+    padding: 10%;
+    padding-top: 50px;
+}
+.calendar_col{
+    padding: 0;
+}
+.container{
+    padding: 0;
+    border: 2px solid black;
+    overflow: auto;
+    height: 580px;
+}
+.container header{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: white;
+    height: 80px;
+}
+.current-date{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+}
+.icons{
+    display: flex;
+    margin-left: 10px;
+    font-size: 24px;
+}
+.icons div{
+    margin: 20px;
+    margin-top: 0;
+    color: black;
+}
+.icons div:hover{
+    color: rgb(20, 133, 133);
+}
+.calendar ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+  .calendar ul li{
+    width: calc(100% / 7);
+  }
+  .weeks{
+    color: white;
+    background-color: brown;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+  .days{
+    background-color: white;
+    color: black;
+    height: 440px;
+  }
+  .days li{
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: bolder;
+  }
+ .booking{
+    background-color: rgb(20, 20, 20);
+    height: 580px;
+    padding: 5%;
+    text-align: center;
+    letter-spacing: 2px;
+    overflow: auto;
+ }
+ .booking h4{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+ }
+ .booking hr{
+    color: white;
+ }
+ .dateSelection p{
+    margin-bottom: 0;
+    font-size: 18px;
+    color: white;
+ }
+ .dateSelection input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+ }
+ .dateSelection button{
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+ }
+ .dateSelection button:hover{
+    box-shadow: 5px 5px rgb(126, 125, 125);
+    background-color: rgb(236, 235, 235);
+ }
+ .dateSelection button:active{
+    box-shadow: 2px 2px rgb(126, 125, 125);
+    transform: translateY(7px);
+    background-color: rgb(236, 235, 235);
+ }
+ .note{
+    border: 1px solid rgb(150, 146, 146);
+    padding: 10px;
+    padding-bottom: 0;
+    margin-top: 80px;
+    color: red;
+ }
+
+/*Pricing*/
+.col3 h1{
+    text-align: center;
+    color: rgb(53, 49, 49);
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.col3 hr{
+    width: 30%;
+    color: rgb(53, 49, 49);
+    border: 2px solid;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.box1{
+    border: 2px solid black;
+    width: 100%;
+    height: 700px;
+    overflow: auto;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(226, 223, 223);
+}
+.box1 h3{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(58, 85, 67);
+}
+.box1 h5{
+    text-align: center;
+}
+.box1 h4{
+    text-align: center;
+    color: rgb(156, 48, 48);
+}
+.box1 button{
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #a52a2a;
+    color: white;
+}
+.box1 button:hover{
+    box-shadow: 0 6px rgb(54, 53, 53);
+    background-color: rgb(116, 184, 184);
+    color: black;
+    
+}
+.box1 button:active{
+    box-shadow: 0 3px rgb(54, 53, 53);
+    transform: translateY(4px);
+    background-color: rgb(116, 184, 184);
+    color: black;
+}
+.box1 h6{
+    text-align: center;
+}
+.box1 p{
+    text-align: center;
+}
+.paybutton{
+    margin-top: 11px;
+}
+.col7{
+    height: 100%;
+    padding: 5%;
+}
+.row3{
+    background-color: white;
+}
+.pricing_row{
+    background-color: white;
+    padding: 5%;
+    padding-top: 0;
+}
+
+/*ContactS*/
+
+/*Send us an email*/
+.col10{
+    background-color: rgb(224, 223, 219);
+    padding: 5%;
+}
+.box1_1{
+    margin-top: 60px;
+    margin-bottom: 60px;;
+    padding: 5%;
+    border: 5px solid black;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.box1_1 input{
+    width: 90%;
+    height: 40px; 
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.box1_1 input:hover{
+    background-color: rgb(180, 198, 201);
+    font-weight: bold;
+}
+.box1_1 input:focus{
+    background-color: rgb(180, 198, 201);
+    font-weight: bold;
+}
+.box1_message input{
+    width: 90%;
+    height: 170px; 
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.box1 h4{
+    font-weight: bolder;
+    color: rgb(82, 64, 20);
+}
+.box1_1 button{
+    margin-top: 20px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+.box1_1 button:hover{
+    box-shadow: 5px 5px rgb(100, 99, 99);
+    background-color: rgb(180, 198, 201);
+    color: white;
+}
+.box1_1 button:active{
+    box-shadow: 2px 2px rgb(100, 99, 99);
+    transform: translateY(5px);
+}
+
+/*Other information*/
+.col11{
+    background-color: rgb(224, 223, 219);
+    padding: 5%;
+}
+.box2{
+    margin-top: 60px;
+    margin-bottom: 60px;;
+    padding: 5%;
+    border: 5px solid black;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.box2 h4{
+    font-weight: bolder;
+    color: rgb(82, 64, 20);
+}
+.box2 h5{
+    font-weight: bold;
+}
+.box2 p{
+    margin-bottom: 5px;
+    color: rgb(99, 17, 17);
+}
+.box2 a{
+    text-decoration: none;
+    color: rgb(99, 17, 17);
+}
+.box2 a:hover{
+    color: rgb(172, 32, 32);
+}
+
+/*Get Social*/
+.box2 ul li{
+    list-style: none;
+    float: left;
+    clear: both;
+    font-weight: bold;
+}
+.box2 ul li a{
+    font-size: 60px;
+}
+
+
+/*Footer*/
+.col8{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.col8 a{
+    text-decoration: none;
+    color: black;
+}
+.col8 a:hover{
+    color: rgb(45, 102, 102);
+}
+
+
+

@@ -1,0 +1,289 @@
+body{
+    background-image: linear-gradient(90deg,rgba(80, 79, 79, 0.616),rgba(25, 3, 44, 0.829)),url('photo8.jpg');
+    background-repeat: no-repeat;
+}
+/*Navigation Bar*/
+.nav-row{
+    text-align: center;
+    align-items: center;
+}
+.logo img{
+    border-radius: 50%;
+    height: 150px;
+    margin-top: 20px;
+}
+.nav-btn ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    align-items: center;
+}
+.nav-btn li{
+    list-style: none;
+}
+.nav-btn a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+}
+.nav-btn a:hover{
+    color: rgb(177, 211, 211);
+}
+.nav-usr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+}
+.nav-usr i{
+    color: white;
+}
+.nav-usr i:hover{
+    color: rgb(177, 211, 211);
+}
+.nav-usr button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+/*drop-down*/
+.drp-down{
+    background-color: white;
+    width: 100px;
+    height: 120px;
+    margin-right: 70px;
+    display: none;
+    position: absolute;
+    margin-left: -77px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.show{
+    display: block;
+}
+.drp-down button{
+    width: 100%;
+    border: none;
+    color: black;
+    letter-spacing: 1px;
+    height: 40px;
+    border-radius: 10px;
+}
+.drp-down button:hover{
+    background-color: rgb(223, 219, 219);
+}
+/*Opening*/
+.opening-row{
+    text-align: center;
+}
+.opening-row h5{
+    margin-top: 220px;
+    letter-spacing: 8px;
+    font-size: 35px;
+    font-weight: 100;
+    color: rgba(251, 244, 244, 1);
+}
+.opening-row h1{
+    font-size: 58px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(216, 208, 166, 1);
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+.opening-row p{
+    font-size: 22px;
+    color: rgba(251, 248, 248, 1);
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 0;
+}
+.opening-row button{
+    width: 200px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 110px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.opening-row button:hover{
+    background-color: rgb(165, 168, 170);
+    color: white;
+    box-shadow: 5px 5px black;
+    transform: translateY(2px);
+}
+.opening-row button:active{
+    background-color: rgb(165, 168, 170);
+    color: white;
+    box-shadow: 2px 2px black;
+    transform: translateY(7px);
+}
+
+/*content number 1*/
+.content1-row{
+    background-color: rgba(224, 219, 219, 1);
+    padding: 5%;
+}
+.content1-col{
+    text-align: center;
+    padding: 5%;
+}
+.content1-col h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.content1-col p{
+    font-size: 24px; 
+    margin-top: 30px;
+}
+.content1-col img{
+    width: 90%;
+}
+/*customers feedback*/
+.customers-feedbck{
+    background-color: rgba(204, 200, 200, 1);
+    text-align: center;
+}
+.customers-feedbck h1{
+    margin-top: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.customers-feedbck hr{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.feedback1{
+    background-color: rgba(204, 200, 200, 1);
+    padding-top: 5%;
+}
+.feedback-content{
+    padding: 5%;
+    text-align: center;
+}
+
+/*ContactS*/
+
+/*Send us an email*/
+.col10{
+    background-color: rgb(224, 223, 219);
+    padding: 5%;
+}
+.box1_1{
+    margin-top: 60px;
+    margin-bottom: 60px;;
+    padding: 5%;
+    border: 5px solid black;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.box1_1 input{
+    width: 90%;
+    height: 40px; 
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.box1_1 input:hover{
+    background-color: rgb(180, 198, 201);
+    font-weight: bold;
+}
+.box1_1 input:focus{
+    background-color: rgb(180, 198, 201);
+    font-weight: bold;
+}
+.box1_message input{
+    width: 90%;
+    height: 170px; 
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.box1 h4{
+    font-weight: bolder;
+    color: rgb(82, 64, 20);
+}
+.box1_1 button{
+    margin-top: 20px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+.box1_1 button:hover{
+    box-shadow: 5px 5px rgb(100, 99, 99);
+    background-color: rgb(180, 198, 201);
+    color: white;
+}
+.box1_1 button:active{
+    box-shadow: 2px 2px rgb(100, 99, 99);
+    transform: translateY(5px);
+}
+
+/*Other information*/
+.col11{
+    background-color: rgb(224, 223, 219);
+    padding: 5%;
+}
+.box2{
+    margin-top: 60px;
+    margin-bottom: 60px;;
+    padding: 5%;
+    border: 5px solid black;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.box2 h4{
+    font-weight: bolder;
+    color: rgb(82, 64, 20);
+}
+.box2 h5{
+    font-weight: bold;
+}
+.box2 p{
+    margin-bottom: 5px;
+    color: rgb(99, 17, 17);
+}
+.box2 a{
+    text-decoration: none;
+    color: rgb(99, 17, 17);
+}
+.box2 a:hover{
+    color: rgb(172, 32, 32);
+}
+/*Get Social*/
+.box2 ul li{
+    list-style: none;
+    float: left;
+    clear: both;
+    font-weight: bold;
+}
+.box2 ul li a{
+    font-size: 60px;
+}
+/*Footer*/
+.col8{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgb(224, 223, 219);
+}
+.col8 a{
+    text-decoration: none;
+    color: black;
+}
+.col8 a:hover{
+    color: rgb(45, 102, 102);
+}
+
+

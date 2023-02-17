@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        @media only screen and (max-width: 400px) {
+            .nav-btn ul{
+                display: block;
+                padding-left: 0;
+                padding-top: 20px;
+                height: 110px;
+            }
+            .opening-row h5{
+                margin-top: 130px;
+                font-size: 25px;
+            }
+            .opening-row h1{
+                font-size: 45px;
+            }
+            .opening-row p{
+                font-size: 18px;
+            }
+            .content1-col h1{
+                font-size: 45px;
+            }
+            .content1-col p{
+                font-size: 18px;
+            }
+            .customers-feedbck h1{
+                font-size: 45px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <a name="toppart"></a>
+        <!--Navigation Bar-->
+        <div class="row nav-row">
+            <div class="col-md-3 logo">
+                <img src="logo.jpg" alt="">
+            </div>
+
+            <div class="col-md-6 nav-btn">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="../2-facilities/index.html">FACILITIES</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 nav-usr">
+                <a href="https://www.instagram.com/thebrownscasita/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/thebrownscasita"><i class="fa-brands fa-facebook"></i></a>
+                <div>
+                    <button onclick="btn()" class="fa-solid fa-user"></button>
+                    <div class="drp-down" id="drp-down">
+                        <button onclick="location.href = '../9-profile/index.html';">Profile</button>
+                        <br>
+                        <button onclick="location.href = '../5-login/index.html';">Login</button>
+                        <br>
+                        <button onclick="location.href = '../6-Signup/index.html';">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Opening-->
+        <div class="row opening-row">
+            <h5>WELCOME TO</h5>
+            <h1>THE BROWNS CASITA</h1>
+            <p>A Tropical Hideaway! Feel the tropical paradise vibe
+              <br>  without traveling away from the City.
+            </p>
+            <button onclick="location.href = '../3-calendar/index.html';">CLICK TO BOOK</button>
+        </div>
+
+        <!--content number 1-->
+        <div class="row content1-row">
+            <div class="col-md-6 content1-col">
+                <h1>Meet your tropical home 
+                   away from home
+                </h1>
+                <p>Experience one of the best villas in Davao del Norte. We offer clean, 
+                    comfortable, and affordable stays. Be one who can indulge in this wonderful and
+                     peaceful private place. What are you waiting for? Start and book your stay.
+                </p>
+            </div>
+
+            <div class="col-md-6 content1-col">
+                <img src="photo1.jpg" alt="">
+            </div>
+        </div>
+
+        <!--customers feedback-->
+        <div class="row customers-feedbck">
+            <h1>What do our customers say?</h1>
+            <hr>
+        </div>
+
+        <div class="row feedback1">
+            <div class="col-md-4 feedback-content">
+                <h1>★★★★★</h1>
+                <p>“The place was very nice and clean. The host 
+                    was very accommodating and responsive as 
+                    well. She was very helpful during check-in. We 
+                    even got a free breakfast!! Would definitely 
+                    recommend this place and I can't wait to book 
+                    again.”
+                </p>
+                <h2>-Cybele Lou J.</h2>
+            </div>
+
+            <div class="col-md-4 feedback-content">
+                <h1>★★★★★</h1>
+                <p>“The place is truly wonderful. An experience to
+                    have when planning a getaway with your loved 
+                   ones.”
+                </p>
+                <h2>-Von</h2>
+            </div>
+
+            <div class="col-md-4 feedback-content">
+                <h1>★★★★★</h1>
+                <p>
+                    “The Browns Casita is a destination that is one 
+                    for the books! The place is truly amazing, 
+                    pleasant, and relaxing. It's like you're not even 
+                    in Panabo. I would definitely book again here.”
+                </p>
+                <h2>-Christian L.</h2>
+            </div>
+        </div>
+        
+
+        <a name="contact"></a>
+        <section>
+            <!--Contacts-->
+            <div class="row">
+                <div class="col-lg-4 col10">
+                    <div class="box1_1">
+                        <h4>Send us an Email</h4>
+                        <hr>
+                        <form action="" method="post" enctype="text/plain">
+                            <input type="email" placeholder="Type your email here..." name="email" required>
+                            <div class="box1_message">
+                            <input type="text" placeholder="Type your message here..." name="comment" required>
+                            </div>
+                            <button type="submit">SEND</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col10">
+                    <div class="box2">
+                        <h4>Other Information</h4>
+                        <hr>
+                        <h5>Address:</h5>
+                        <a href="https://goo.gl/maps/6U1PGq2vTzt3jH2W7" target="_blank"><i class="fa-solid fa-location-dot">
+                        </i>Brgy. Cebulano, Carmen, Davao del Norte</a>
+                        <br>
+                        <br>
+                        <h5>Contact Info:</h5>
+                        <p>09369361714</p>
+                        <br>
+                        <h5>Email Add:</h5>
+                        <p>thebrownscasita@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col10">
+                    <div class="box2">
+                        <h4>Get Social</h4>
+                        <hr>
+                        <ul>
+                            <li><a href="https://www.facebook.com/thebrownscasita" target="_blank"><i class="fa-brands fa-facebook"></i></a> Facebook</li>
+                            <li><a href="https://www.instagram.com/thebrownscasita/" target="_blank"><i class="fa-brands fa-instagram"></i></a> Instagram</li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></a>Twitter</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="row">
+                <div class="col-12 col8">
+                    <a href="#toppart"> >>>Click to Go Back to Top<<< </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+ <script src="style.js"></script>   
+<script src="js/bootstrap.js"></script>
+<script src="https://kit.fontawesome.com/12e77b0106.js" crossorigin="anonymous"></script> 
+</body>
+</html>

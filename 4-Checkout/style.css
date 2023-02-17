@@ -1,0 +1,339 @@
+body{
+    background: white;
+}
+.logo1{
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Navigation*/
+.nav_row{
+    background-color: black;
+    height: 60px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+}
+.nav li{
+    list-style: none;
+}
+.nav a{
+    font-size: 100%;;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+.nav a:hover{
+    color: rgb(20, 133, 133);
+}
+
+/*Intro message*/
+.intro{
+    text-align: center;
+    margin-top: 90px;
+}
+
+/*Payment box*/
+.row1{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+.box1{
+    border: 5px solid black;
+    height: 900px;
+    padding: 5%;
+    text-align: center;
+    margin-top: 5%;
+    overflow: hidden;
+}
+.box1 h4{
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box1 p{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.box1 input{
+    border: 1px solid black;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+    height: 50px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.box1 input:hover{
+    background-color: rgb(208, 216, 216);
+}
+.box1 input:focus{
+    background-color: rgb(208, 216, 216);
+}
+
+/*Payments*/
+.box2{
+    border: 1px solid black;
+    height: 900px;
+    padding: 5%;
+    text-align: center;
+    background-color: rgba(217, 217, 217, 1);
+    margin-top: 5%;
+}
+.box2 h4{
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.panel{
+    height: 450px;
+    width: 100%;
+    border: 5px solid rgba(117, 106, 9, 1);
+    display: none;
+}
+.show { display: block; 
+}
+.buttons button{
+    font-size: 24px;
+    border: 2px solid rgba(117, 106, 9, 1);
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.buttons button:hover{
+    background-color: rgba(217, 217, 217, 1);
+}
+.panel i{
+    font-size: 60px;
+    width: 100%;
+    margin-top: 15px;
+    padding-right: 15px;
+    color: rgb(5, 5, 196);
+    text-align: right;
+}
+.panel p{
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: left;
+    padding-left: 20px;
+}
+.panel button{
+    float: left;
+    margin-left: 20px;
+    margin-right: 5px;
+    width: 160px;
+    background-color: rgba(234, 206, 61, 1);
+    border: none;
+}
+.panel button:hover{
+    box-shadow: 5px 5px rgb(99, 97, 97);
+}
+.panel button:active{
+    box-shadow: 2px 2px rgb(99, 97, 97);
+    transform: translateY(5px);
+}
+
+/*Credit card*/
+.cards{
+    display: flex;
+    float: right;
+    margin: 10px;
+}
+.cards i{
+    margin: 0;
+    font-size: 24px;
+    width: 35px;
+}
+.cards_content input{
+    width: 90%;
+}
+.card_exp{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card_exp input{
+    width: 100%;
+    text-align: center;
+}
+.code input{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+}
+.payment_submit button{
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+.payment_submit button:hover{
+    color: black;
+    font-weight: bold;
+    background-color: rgb(208, 216, 216);
+    box-shadow: 7px 7px rgb(71, 70, 70);
+}
+.payment_submit button:active{
+    color: black;
+    font-weight: bold;
+    background-color: rgb(208, 216, 216);
+    box-shadow: 3px 3px rgb(71, 70, 70);
+    transform: translateY(7px);
+}
+/*Footer*/
+.footer_button button{
+    width: 50%;
+    font-size: 100%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.footer_button button:hover{
+    color: black;
+    font-weight: bold;
+    background-color: rgb(208, 216, 216);
+    box-shadow: 7px 7px rgb(71, 70, 70);
+}
+.footer_button button:active{
+    color: black;
+    font-weight: bold;
+    background-color: rgb(208, 216, 216);
+    box-shadow: 3px 3px rgb(71, 70, 70);
+    transform: translateY(7px);
+}
+
+/*ContactS*/
+/*Send us an email*/
+.col10{
+    background-color: rgb(224, 223, 219);
+    padding: 5%;
+}
+.box1_1{
+    margin-top: 60px;
+    margin-bottom: 60px;;
+    padding: 5%;
+    border: 5px solid black;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.box1_1 input{
+    width: 90%;
+    height: 40px; 
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.box1_1 input:hover{
+    background-color: rgb(180, 198, 201);
+    font-weight: bold;
+}
+.box1_1 input:focus{
+    background-color: rgb(180, 198, 201);
+    font-weight: bold;
+}
+.box1_message input{
+    width: 90%;
+    height: 170px; 
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.box1_1 h4{
+    font-weight: bolder;
+    color: rgb(82, 64, 20);
+}
+.box1_1 button{
+    margin-top: 20px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+.box1_1 button:hover{
+    box-shadow: 5px 5px rgb(100, 99, 99);
+    background-color: rgb(180, 198, 201);
+    color: white;
+}
+.box1_1 button:active{
+    box-shadow: 2px 2px rgb(100, 99, 99);
+    transform: translateY(5px);
+}
+
+/*Other information*/
+.col11{
+    background-color: rgb(224, 223, 219);
+    padding: 5%;
+}
+.box2_2{
+    margin-top: 60px;
+    margin-bottom: 60px;;
+    padding: 5%;
+    border: 5px solid black;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.box2_2 h4{
+    font-weight: bolder;
+    color: rgb(82, 64, 20);
+}
+.box2_2 h5{
+    font-weight: bold;
+}
+.box2_2 p{
+    margin-bottom: 5px;
+    color: rgb(99, 17, 17);
+}
+.box2_2 a{
+    text-decoration: none;
+    color: rgb(99, 17, 17);
+}
+.box2_2 a:hover{
+    color: rgb(172, 32, 32);
+}
+
+/*Get Social*/
+.box2_2 ul li{
+    list-style: none;
+    float: left;
+    clear: both;
+    font-weight: bold;
+}
+.box2_2 ul li a{
+    font-size: 60px;
+}
+
+/*Footer*/
+.col8{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.col8 a{
+    text-decoration: none;
+    color: black;
+}
+.col8 a:hover{
+    color: rgb(45, 102, 102);
+}

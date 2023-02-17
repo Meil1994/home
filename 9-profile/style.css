@@ -1,0 +1,148 @@
+/*logo*/
+.header img{
+    width: 150px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+/*Login box*/
+.box{
+    width: 40%;
+    height: 700px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    letter-spacing: 2px;
+    border: 2px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.head{
+    background-color: rgb(243, 243, 243);
+    padding: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    height: 220px;
+}
+.head img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.head h4{
+    font-size: 24px;
+    margin: 0;
+    color: rgb(68, 67, 67);
+    font-weight: bold;
+}
+.head p{
+    font-size: 15px;
+    color: rgb(80, 79, 79);
+    font-weight: 400;
+    margin: 0;
+}
+.head button{
+    border: none;
+    font-size: 12px;
+    margin-top: 10px;
+    color: rgb(26, 24, 24);
+    background-color: rgb(208, 209, 209);
+}
+.head button:hover{
+    background-color:rgb(208, 209, 209);
+    color: rgb(29, 70, 105);
+    box-shadow: 5px 5px rgb(141, 140, 140);
+    transform: translateY(2px);
+}
+.head button:active{
+    background-color:rgb(208, 209, 209);
+    color: rgb(29, 70, 105);
+    box-shadow: 2px 2px rgb(141, 140, 140);
+    transform: translateY(5px);
+}
+.content{
+    background-color: rgba(211, 203, 201, 1);
+    overflow: auto;
+    height: 476px;
+}
+.content button{
+    width: 70%;
+    font-size: 20px;
+    color: rgb(12, 9, 9);
+    margin-top: 30px;
+    height: 50px;
+    border: none;
+    letter-spacing: 2px;
+    background-color: rgb(243, 246, 247);
+}
+.content button:hover{
+    background-color:rgb(208, 209, 209);
+    color: rgb(244, 244, 245);
+    box-shadow: 5px 5px rgb(141, 140, 140);
+    transform: translateY(2px);
+    border: 2px solid black;
+}
+.content button:active{
+    background-color:rgb(208, 209, 209);
+    color: rgb(244, 244, 245);;
+    box-shadow: 2px 2px rgb(141, 140, 140);
+    transform: translateY(7px);
+    border: 2px solid black;
+}
+
+/* Drop Down*/
+.up-booking{
+    border: 1px solid black;
+    margin-bottom: 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: rgb(243, 246, 247);
+    color: rgb(83, 17, 17);
+    display: none;
+}
+.show{
+    display: block;
+    transition: 1s;
+}
+.box1_1{
+    border: 1px solid black;
+    margin-bottom: 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: rgb(243, 246, 247);
+    color: rgb(83, 17, 17);
+    display: none;
+}
+.show1{
+    display: block;
+    transition: 1s;
+}
+.email input{
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    border: none;
+    font-size: 15px;
+}
+.email-content input{
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+    border: none;
+    font-size: 15px;
+    height: 100px;
+}
+.submit input{
+    margin-top: 10px;
+    width: 50%;
+}
+

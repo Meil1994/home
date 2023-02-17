@@ -1,0 +1,58 @@
+/*logo*/
+.header img{
+    width: 150px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+/*Login box*/
+.box{
+    border: 2px solid black;
+    width: 40%;
+    height: 500px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    text-align: center;
+    padding: 2%;
+    background-color: rgba(211, 203, 201, 1);
+    
+}
+.box h3{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.box p{
+    font-size: 20px;
+    color: rgb(185, 41, 41);
+}
+.fa-circle-check{
+    font-size: 50px;
+    color:rgb(96, 148, 148);
+}
+
+.btn_1{
+    width: 100%;
+    margin-top: 50px;
+}
+.btn_1 button{
+    width: 50%;
+    background-color: rgba(148, 189, 191, 1);
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
+.btn_1 button:hover{
+    background-color: rgb(128, 174, 175);
+    box-shadow: 5px 5px rgb(68, 67, 67);
+}
+.btn_1 button:active{
+    background-color: rgb(128, 174, 175);
+    box-shadow: 2px 2px rgb(68, 67, 67);
+    transform: translateY(5px);
+}

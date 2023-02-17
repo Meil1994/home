@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Browns Casita Checkout</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @media only screen and (max-width: 700px) {
+            .footer_button button{
+                width: 80%;
+                height: 90px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <a name="toppart"></a>
+        
+        <div class="row">
+            <div class="col col_logo">
+                <img src="logo1.2.png" class="logo1">
+            </div>
+        </div>
+
+        <!--Navigation-->
+        <div class="row nav_row">
+            <div class="col nav">
+               <ul>
+                   <li><a href="../1-home/index.html">HOME</a></li>
+                   <li><a href="../2-facilities/index.html">FACILITIES</a></li>
+                   <li><a href="#contact">CONTACT</a></li>
+               </ul>
+            </div>
+       </div>
+
+       <!--Intro message-->
+       <div class="row">
+           <div class="col intro">
+                <h3>You’re almost there..!</h3>
+           </div>
+       </div>
+
+       
+        <!--Payment box-->
+        <div class="row row1">
+            <div class="col-md-6 box1">
+                <h4>BOOKING DETAILS</h4>
+                <hr>
+                <br>
+                <br>
+                <form action="">
+                    <p>Name:</p>
+                    <input type="text" placeholder="Type your name here..">
+                    <p>Check in:</p>
+                    <input type="date" id="check_in">
+                    <p>Check out:</p>
+                    <input type="date" id="check_out">
+                    <p>Total days:</p>
+                    <input type="number">
+                    <p>Total amount:</p>
+                    <input type="number">
+                </form>
+            </div>
+
+            <div class="col-md-6 box2">
+                <h4>PAYMENT OPTION</h4>
+                <hr>
+                <br>
+                <br>
+
+                <!--Payments-->
+                <div class="buttons">
+                    <button data-id="payPal">PayPal</button>
+                    <button data-id="creditCard">Debit/Credit</button>
+                </div>
+
+                <form action="" class="form_1">
+                    <div class="panel" id="payPal">
+                        <i class="fa-brands fa-cc-paypal"></i>
+                        <hr>
+                        <p>Log in to your PayPal account to complete.</p>
+                        <button>LOG IN</button>
+                        <br>
+                        <hr>
+                        <p>New to PayPal?</p>
+                        <div class="box2_paypal_new">
+                            <button>SIGN UP</button>
+                            <p>or use Debit/Credit Card.</p>
+                        </div>
+                    </div>
+    
+                    <div class="panel" id="creditCard">
+                        <div class="cards">
+                            <i class="fa-brands fa-cc-visa"></i>
+                            <i class="fa-brands fa-cc-mastercard"></i>
+                            <i class="fa-brands fa-cc-diners-club"></i>
+                            <i class="fa-brands fa-cc-amex"></i>
+                            <i class="fa-brands fa-cc-stripe"></i>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="cards_content">
+                            <p>Name (as it appears on your card)</p>
+                            <input type="text">
+                            <br>
+                            <br>
+                            <p>Card number (no dashes or spaces)</p>
+                            <input type="number">
+                            <br>
+                            <br>
+                            <p>Expiration date</p>
+                            <div class="card_exp">
+                                <input type="number" placeholder="DAY">
+                                <input type="number" placeholder="MONTH">
+                                <input type="number" placeholder="YEAR">
+                            </div>
+                            <br>
+                            <div class="code">
+                                <p>3 digit security code</p>
+                                <input type="number">
+                            </div>
+                        </div>
+                    </div>
+                
+                </form>
+                <div class="payment_submit">
+                    <button onclick="location.href = '../8-Booking-success/index.html';">CLICK TO COMPLETE</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row footer_button">
+            <button onclick="location.href = '../3-calendar/index.html';">GO BACK TO THE PREVIOUS PAGE</button>
+        </div>
+
+
+
+
+        <a name="contact"></a>
+        <section>
+            <!--Contacts-->
+            <div class="row">
+                <div class="col-lg-4 col10">
+                    <div class="box1_1">
+                        <h4>Send us an Email</h4>
+                        <hr>
+                        <form>
+                            <input type="email" placeholder="Type your email here..." required>
+                            <div class="box1_message">
+                            <input type="text" placeholder="Type your message here..." required>
+                            </div>
+                            <button>SEND</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col10">
+                    <div class="box2_2">
+                        <h4>Other Information</h4>
+                        <hr>
+                        <h5>Address:</h5>
+                        <a href="https://goo.gl/maps/6U1PGq2vTzt3jH2W7" target="_blank"><i class="fa-solid fa-location-dot">
+                        </i>Brgy. Cebulano, Carmen, Davao del Norte</a>
+                        <br>
+                        <br>
+                        <h5>Contact Info:</h5>
+                        <p>09369361714</p>
+                        <br>
+                        <h5>Email Add:</h5>
+                        <p>thebrownscasita@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col10">
+                    <div class="box2_2">
+                        <h4>Get Social</h4>
+                        <hr>
+                        <ul>
+                            <li><a href="https://www.facebook.com/thebrownscasita" target="_blank"><i class="fa-brands fa-facebook"></i></a> Facebook</li>
+                            <li><a href="https://www.instagram.com/thebrownscasita/" target="_blank"><i class="fa-brands fa-instagram"></i></a> Instagram</li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></a>Twitter</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="row">
+                <div class="col-12 col8">
+                    <a href="#toppart"> >>>Click to Go Back to Top<<< </a>
+                </div>
+            </div>
+        </footer>
+
+
+
+    </div>
+
+
+    <script>
+
+        /*Payment Option*/
+        const buttons = document.querySelector('.buttons');
+        const panels = document.querySelectorAll('.panel');
+
+        buttons.addEventListener('click', handleClick);
+
+        function handleClick(e) {
+            if (e.target.matches('button')) {
+            panels.forEach(panel => panel.classList.remove('show'));
+
+        const { id } = e.target.dataset;
+        const selector = `.panel[id="${id}"]`;
+        document.querySelector(selector).classList.add('show');}}
+    </script>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/12e77b0106.js" crossorigin="anonymous"></script>
+</body>
+</html>
