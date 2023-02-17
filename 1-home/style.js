@@ -14,3 +14,8 @@ window.onclick = function(event) {
       }
     }
   }
+
+  function btn1(x) {
+    x.classList.toggle("change");
+    document.getElementById("myDrp").classList.toggle("navshow");
+}
