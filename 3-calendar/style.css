@@ -375,6 +375,17 @@
 .col8 a:hover{
     color: rgb(45, 102, 102);
 }
+@media only screen and (max-width: 300px){
+    .current-date{
+        font-size: 20px;
+    }
+    .icons{
+        font-size: 20px;
+    }
+    .weeks{
+        font-size: 12px;
+    }
+}
 
 
 
