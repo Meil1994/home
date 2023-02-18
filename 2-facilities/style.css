@@ -274,3 +274,14 @@
 .col8 a:hover{
     color: rgb(45, 102, 102);
 }
+@media only screen and (max-width: 300px) {
+    .col5{
+        height: 680px;
+        padding: 0;
+    }
+    .col5 img{
+        height: 80%;
+        width: 100%;
+        margin-left: 0;
+    }
+}
